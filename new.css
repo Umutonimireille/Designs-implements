@@ -1,0 +1,257 @@
+ img{
+     width: 12%;
+ }
+ *{
+     margin: 0;
+     padding: 0;
+     /* box-sizing: border-box; */
+     overflow: hidden;
+ }
+ /* p{
+     font-size: 18px;
+     margin-top: -80px;
+ }
+ /* h5{ */
+     /* font-size: 20px;
+     margin-top: -120px;
+ } */ */
+ h1{
+     font-size: 180%;
+     
+
+ }
+ nav{
+     height:  5em;
+     /* background-color: red; */
+ }
+.popInAndOut {
+    overflow: auto;
+}
+ h4{
+     font-size: 18px;
+     margin-bottom: 60px;
+ }
+
+p{
+    margin-bottom: 100px;
+}
+
+ h3{
+     font-size: 200%;
+ }
+ .navbar{
+     font-size: 16px;
+     top:0 ;
+     left:0 ;
+ }
+ .navbar-light .navbar-nav .nav-link{
+      padding: 0 20px;
+      color:black; ;
+      transition: 0.5s ease;
+ }
+ .navbar-light .navbar-nav .nav-link:hover,
+ .navbar-light .navbar-nav .nav-link.active,
+ nav i .active{
+     color: coral;
+ }
+ .navbar i{
+     font-size: 1.2rem;
+     padding: 0 70px;
+     cursor: pointer;
+     font-weight: 500;
+     transform: 0.5 ease;
+ }
+ #bar{
+     font-size: 1.5rem;
+     padding: 7px;
+     cursor: pointer;
+     font-weight: 500;
+     transition: 00.5s ease;
+     color: black;
+ }
+  #bar:hover,
+  #bar.active{
+      color: coral;
+  }
+   @media  only screen and(max-width:991px){
+       body>nav>div>button:hover,
+       body>nav>div>button:focus{
+           background-color: coral;
+       }
+       body>nav>div>button:hover #bar
+       body>nav>div>button:focus #bar{
+           color:white;
+       
+   }
+
+}
+.container{
+    position: absolute;
+    z-index: 1;
+    
+}
+#navbarSupportedContent > ul{
+     margin: 1rem;
+     justify-content:flex-end ;
+     align-items: flex-end;
+     text-align: right;
+}
+
+
+
+
+ /*Mobile nav*/
+ .navbar-light.navbar-toggler{
+     border: none;
+     outline: none;
+ }
+ #home h2{
+    color:coral ;
+    font-size: 30px;
+    margin-bottom: 25px;
+ }
+ #home{
+     background: url(back5.jpg);
+     
+     width: 100%;
+     background-size: cover;
+     background-position: top 60px center;
+     display: flex;
+     align-items: flex-start;
+    
+
+     justify-content: center;
+    
+     
+     
+ }
+ 
+ button{
+     font-size: 16px;
+     font-weight: 700;
+     outline: none;
+     border: none;
+     background-color: black;
+     color: aliceblue;
+     text-transform: uppercase;
+     padding: 13px 30px;
+     transition: 00.5 ease;
+ }
+ button:hover{
+     background-color: black;
+ }
+
+ .row{
+    
+     width: 300px;
+     height: 100px;
+     margin-left: 200px;
+     float: left;
+     margin-top: 30px;
+
+ }
+  .row1{
+      display: flex;
+  }
+  .shopNow{
+      margin-left: 200px;
+  }
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+   width: 80%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  width: 100%;
+}
+.slideshow-container .mySlides img{
+    opacity: 70%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

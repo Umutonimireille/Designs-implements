@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+    <script src="index.js"></script>
+    </head>
+    <body>
+      
+        
+        
+        
+        ?>
+        
+        <form action="/user" method="POST">
+            <label for="fname">firstname</label>
+            <input type="text" name="firstname"  id="fname" placeholder="Enter firstname"> 
+            <label for="lname">Lastname</label>
+            <input type="text" name="lastname" id="lname" placeholder="Enter Lastname">
+            <label for="mail">Email</label>
+            <input type="text" class="input-email" id="mail" name="Email" placeholder="Enter email">
+            <label for="pass">Password</label>
+            <input type="password" name="password" id="pass" placeholder="Enter password" maxlength="20" >
+            <button type="submit" name="submit">Register</button>
+         </form>
+         <style>
+             form{
+                 border: 5px solid ;
+                 border-radius: 10px;
+                 padding-left: 10px;
+                 width: 250px;
+                  height: 300px;
+                 margin-left: 200px;
+                 margin-top: 80px;
+                 padding-left: 80px;
+                 padding-right: 80px;
+                   padding-top: 40px;
+                    box-shadow: 10px 10px  black;
+             }
+             label{
+                  color: cornflowerblue;
+                  font-size: 20px;
+                
+             }
+             input{
+                 font-size: 12px;
+                 color:black;
+                 margin-top: 20px;
+                padding: 10px 0px;
+                margin-left: 10px;
+                
+                 
+            
+             }
+             .input-email{
+                 margin-left: 40px;
+             }
+         </style>
+    </body>
+</html>
